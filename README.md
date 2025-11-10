@@ -15,16 +15,16 @@ Individual trip details, progress %, status, speed, and timestamp
 Responsive and polished dashboard UI
 
 ## Quick Start
-Install dependencies
+Install dependencies :
 npm install
 
 ## Run locally
 npm start
 
-Open in browser
+To open in browser:
 http://localhost:3000
 
-##Codespaces Users (IMPORTANT)
+## Codespaces Users (IMPORTANT)
 If running in GitHub Codespaces, make sure to set your port 3000 as PUBLIC using the "Ports" tab or CLI (gp ports).
 Otherwise, you might see "CORS" or network access issues—your browser must access the public Codespace port for the dashboard to load and update correctly.
 
@@ -37,10 +37,25 @@ Automated .gitignore prevents node_modules, build, and environment files from be
 
 Ready to deploy with npm run build to Vercel, Netlify, or GitHub Pages.
 
-(Add your live demo URL and reviewer access information here after deployment.)
+## Live URL- Hosted on Vercel
+https://fleet-tracking-dashboard-graces-projects-4579bbab.vercel.app/
 
-Data & Event File Structure
+## Reviewer Access
+The following MapUp reviewer emails have been added as repository collaborators:
+- vedantp@mapup.ai
+- ajayap@mapup.ai
+- asijitp@mapup.ai
+- atharvd@mapup.ai
+- karkuvelpandip@mapup.ai
+
+## Data & Event File Structure
 The dashboard expects trip event JSON files in src/assessment-fallback-data/, structured per assignment instructions.
+
+## Known Issues / Limitations
+- Only fallback/sample data is provided unless custom data is generated.
+- Codespaces must have public port for dashboard to work.
+- For questions, please check README or contact project author.
+
 
 # Getting Started with Create React App
 
