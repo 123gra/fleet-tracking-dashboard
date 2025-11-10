@@ -14,6 +14,9 @@ Individual trip details, progress %, status, speed, and timestamp
 
 Responsive and polished dashboard UI
 
+## Tech Stack For UI Development
+React + LeafLet+ CSS
+
 ## Quick Start
 Install dependencies :
 npm install
